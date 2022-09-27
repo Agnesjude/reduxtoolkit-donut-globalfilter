@@ -1,0 +1,14 @@
+[
+    {
+        "label": "jewelery",
+        "value": 25
+    },
+    {
+        "label": "electronics",
+        "value":75
+    },
+    {
+        "label": "women's clothing",
+        "value":75
+    }
+]

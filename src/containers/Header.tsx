@@ -2,7 +2,7 @@ import react from "react";
 
 const Header = () => {
     return (
-        <h1>Header</h1>
+        <h1>Donut Filter</h1>
     )
 };
 

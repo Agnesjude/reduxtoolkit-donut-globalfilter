@@ -1,18 +1,7 @@
-import { createStore, compose } from 'redux'
-import reducers from "./reducers/index";
+import { configureStore } from '@reduxjs/toolkit';
+import rootReducer from './reducers';
 
-declare global {
-    interface Window {
-      __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
-    }
-  }
-  
-
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
-
-const store = createStore(
-  reducers,
-  composeEnhancers()
-)
+const store = configureStore({ reducer: rootReducer })
+// The store now has redux-thunk added and the Redux DevTools Extension is turned on
   
 export default store;

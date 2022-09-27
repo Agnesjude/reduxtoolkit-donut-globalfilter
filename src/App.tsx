@@ -3,7 +3,7 @@ import './App.css';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Header from './containers/Header';
 import ProductListing from './containers/ProductListting';
-import ProductDetails from './containers/ProductDetails'
+import ProductDetails from './containers/ProductDetails';
 
 function App() {
   return (
