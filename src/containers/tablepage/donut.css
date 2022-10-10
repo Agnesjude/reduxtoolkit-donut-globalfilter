@@ -15,8 +15,7 @@ body {
 }
 
 body {
-  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter',
-    'Lucida Typewriter', monospace;
+  font-family: 'Arial Black';
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -40,7 +39,6 @@ body {
 .Donutdiv{
   align-items: center;
   display: flex;
-  justify-content: center;
   flex-direction: row;
   text-align: center;
 }
@@ -65,7 +63,7 @@ body {
 }
 
 .donutchart-innertext-label,.donutchart-innertext-value{
-  transform: translate(0%, -10%);
+  transform: translate(0%, -15%);
 }
 
 .donutchart-innertext-label {

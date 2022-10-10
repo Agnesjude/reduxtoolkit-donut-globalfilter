@@ -6,6 +6,7 @@ import "./donut.css";
 export const GlobalFilter = ({ filter, setFilter }: { filter: any; setFilter: any }) => {
     return (
         <>
+          
             <div className='Donutdiv'>
                 <div>
                     <span>

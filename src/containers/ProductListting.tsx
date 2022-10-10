@@ -9,7 +9,9 @@ import DonutChart from 'react-donut-chart';
 import { BasicTable } from "./tablepage/Table";
 import { Paginated } from "./tablepage/Paginated";
 import data from "./tablepage/data.json";
-import { COLUMNS } from "./tablepage/column";
+
+import { COLUMNS } from "./breadcrumbsnav/column";
+import tabledata from "./breadcrumbsnav/tabledata.json"
 import { FilteringTable } from "./tablepage/FilteringTable";
 
 const ProductListing = () => {
@@ -66,7 +68,8 @@ const ProductListing = () => {
                     : setValue("")   
                   }
             />; */}
-            <FilteringTable data={products} columns={COLUMNS} />
+            
+            <FilteringTable data={tabledata} columns={COLUMNS} />
             {/*<Paginated data={products} columns={COLUMNS} filterValue={value}/>
            {/* <ProductComponent filterValue={value} /> */}
         </>

@@ -1,0 +1,21 @@
+[
+    {
+      "label": "GREG",
+      "value": 25,
+      "color": "#00E396"
+    },
+    {
+        "label": "KEVIN",
+        "value": 65,
+        "color": "#FEB019"
+      },{
+        "label": "",
+        "value": 100,
+        "color": "#FF4560"
+      },
+      {
+      "label": "KEVIN",
+      "value": 15,
+      "color": "#775DD0"
+    }
+  ]

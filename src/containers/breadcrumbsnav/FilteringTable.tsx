@@ -1,13 +1,7 @@
-import React, { useMemo } from "react";
+import React from "react";
 import { useTable, usePagination, useGlobalFilter } from "react-table";
-import ApexDonut from "../doughnutchart/ApexDonut";
 import BreadcrumbsNavbar from "../breadcrumbsnav/BreadcrumbsNav";
-import { GlobalFilter } from "./GlobalFilter";
-import Donutdata1 from "../doughnutchart/Donutdata1.json";
-import Donutdata2 from "../doughnutchart/Donutdata2.json";
-import Donutdata3 from "../doughnutchart/Donutdata3.json";
 import "./table.css";
-import "./donut.css";
 
 
 export const FilteringTable = ({ columns, data }: { columns: any; data: any;}) => {
@@ -42,28 +36,8 @@ export const FilteringTable = ({ columns, data }: { columns: any; data: any;}) =
 
   return (
     <>
-        <div className='Donutdiv'>
-                <div>
-                    <span>
-                        <h2>Case Type</h2>
-                        <ApexDonut filter={globalFilter} setFilter={setGlobalFilter} data={Donutdata1}/>
-                        </span>
-                </div>
-                <div>
-                    <span>
-                    <h2>CSU RP</h2>
-                        <ApexDonut filter={globalFilter} setFilter={setGlobalFilter} data={Donutdata2}/>
-                        </span>
-                </div>
-                <div>
-                    <span>
-                    <h2>Case Status</h2>
-                        <ApexDonut filter={globalFilter} setFilter={setGlobalFilter} data={Donutdata3}/>
-                        </span>
-                </div>
-        </div>
+      <BreadcrumbsNavbar filter={globalFilter} setFilter={setGlobalFilter}/>
         
-        {/* <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter}/> */}
       <table {...getTableProps()}>
         <thead>
           {headerGroups.map((headerGroup) => (

@@ -1,0 +1,30 @@
+[
+    {
+        "caseId": 1,
+        "caseType": "BRK CJ",
+        "csuRP": "GREG",
+        "caseStatus": "IN REVIEW",
+        "openDate": "2022-09-13"
+    },
+    {
+        "caseId": 1,
+        "caseType": "MA CJ",
+        "csuRP": "KEVIN",
+        "caseStatus": "NEW",
+        "openDate": "2022-09-13"
+    },
+    {
+        "caseId": 1,
+        "caseType": "BRK CJ",
+        "csuRP": "GREG",
+        "caseStatus": "SENT TO ADV",
+        "openDate": "2022-09-13"
+    },
+    {
+        "caseId": 1,
+        "caseType": "BRK SJ",
+        "csuRP": "GREG",
+        "caseStatus": "UNASSIGNED",
+        "openDate": "2022-09-13"
+    }
+]

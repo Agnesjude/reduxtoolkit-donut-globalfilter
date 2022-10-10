@@ -1,0 +1,28 @@
+[
+    {
+      "caseStatus": "UNASSIGNED",
+      "caseCount" : 10,
+      "caseAmount": "500"
+    },
+    {
+        "caseStatus": "NEW",
+        "caseCount" : 13,
+        "caseAmount": "500"
+      },
+      {
+        "caseStatus": "IN REVIEW",
+        "caseCount" : 7,
+        "caseAmount": "500"
+      },
+      {
+        "caseStatus": "SENT TO ADV",
+        "caseCount" : 3,
+        "caseAmount": "500"
+      },
+      
+      {
+        "caseStatus": "TOTAL",
+        "caseCount" : 34,
+        "caseAmount": "2000"
+      }
+]

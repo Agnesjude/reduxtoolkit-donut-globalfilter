@@ -1,0 +1,21 @@
+[
+    {
+      "label": "BRK CJ",
+      "value": 25,
+      "color": "#00E396"
+    },
+    {
+        "label": "MA CJ",
+        "value": 65,
+        "color": "#FEB019"
+      },{
+        "label": "BRK SJ",
+        "value": 100,
+        "color": "#FF4560"
+      },
+      {
+      "label": "BRK CJ",
+      "value": 15,
+      "color": "#775DD0"
+    }
+  ]
