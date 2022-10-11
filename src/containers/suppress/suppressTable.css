@@ -1,0 +1,42 @@
+.suppress{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: initial;
+}
+.suppress-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.suppress-table-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.suppress-table-content{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: row;
+}
+
+.suppress-table-label,.suppress-table-input,.supress-table-input-info
+{
+    padding: 10px 10px;
+}
+
+.suppress-div-content{
+    border: 2px solid rgb(71, 78, 169);
+    background-color:rgba(125, 125, 240, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(113, 105, 149, 0.2), 0 6px 20px 0 rgba(58, 44, 104, 0.19);
+  
+    padding: 10px;
+    margin:15px 15px;
+    border-radius: 25px;
+    color:rgb(0, 0, 0,0.9);
+    text-align: left;
+    line-height: 2.5;
+    width:250px;
+    height:250px;
+}

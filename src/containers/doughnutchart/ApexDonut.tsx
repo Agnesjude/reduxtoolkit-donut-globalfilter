@@ -43,7 +43,7 @@ export default function ApexDonut({ filter, setFilter, data }: { filter: any; se
   return (
     <div className="App">
       <DonutChart
-        width={500}
+        width={355} height={350}
         onMouseEnter={(item) => reactDonutChartOnMouseEnter(item)}
         strokeColor={reactDonutChartStrokeColor}
         data={data}

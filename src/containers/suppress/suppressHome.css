@@ -1,0 +1,17 @@
+.suppress-home-tile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+.suppress-tile{
+    background-color: rgba(32, 42, 98, 0.9); 
+    width: 230px; 
+    height:130px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px 35px;
+    text-align: center;
+    color:rgb(255, 255, 255,0.9);
+}
