@@ -8,6 +8,7 @@ import Home from './containers/home/index';
 import SuppressContent from './containers/suppress/suppressContent';
 import SuppressTable from './containers/suppress/supressTable';
 import SuppressHome from './containers/suppress/suppressHome';
+import AssetJournal from './containers/assetJournal/assetJournalHome';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/suppressHome" element={<SuppressHome/>}/>
           <Route path="/suppressContent" element={<SuppressContent/>}/>
           <Route path="/suppressTable" element={<SuppressTable/>}/>
+          <Route path="/assetJournal" element={<AssetJournal/>}/>
           <Route>404 Not Found!</Route>
         </Routes>
         

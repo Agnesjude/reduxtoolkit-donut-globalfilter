@@ -1,26 +1,26 @@
-table {
+.nav-filter-table table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
   margin-top: 15px;
 }
 
-table td,
-table th {
+.nav-filter-table table td,
+.nav-filter-table table th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-table tr:nth-child(even) {
+.nav-filter-table table tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-table tr:hover {
+.nav-filter-table table tr:hover {
   background-color: #ddd;
 }
 
-table th,
-tfoot td {
+.nav-filter-table table th,
+.nav-filter-table tfoot td {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
@@ -28,6 +28,6 @@ tfoot td {
   color: rgb(23, 4, 4);
 }
 
-.paginated{
+.nav-filter-table .paginated{
   padding: 10px 0;
 }

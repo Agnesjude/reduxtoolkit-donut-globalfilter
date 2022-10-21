@@ -38,7 +38,7 @@ export const FilteringTable = ({ columns, data }: { columns: any; data: any;}) =
     <>
       <BreadcrumbsNavbar filter={globalFilter} setFilter={setGlobalFilter}/>
         
-      <table {...getTableProps()}>
+      <table {...getTableProps()} className="nav-filter-table">
         <thead>
           {headerGroups.map((headerGroup) => (
             <tr {...headerGroup.getHeaderGroupProps()}>
